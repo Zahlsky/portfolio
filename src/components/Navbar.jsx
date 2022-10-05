@@ -4,6 +4,7 @@ import Logo from '../assets/AZlogo.png'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useState } from 'react'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
@@ -20,7 +21,11 @@ const Navbar = () => {
 
       
         <ul className='hidden md:flex'>
-          <li>Home</li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
           <li>About</li>
           <li>Skills</li>
           <li>Work</li>
