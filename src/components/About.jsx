@@ -15,7 +15,7 @@ const About = () => {
               <p>Hi. I'm Aaron, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I’m a software engineer with experience in project management. My interest in development was first sparked by creating music using programming to design and sculpt digital sounds. My desire to learn more led me to fast-track my education at General Assembly’s full-stack immersive software engineering course. I’m now looking for opportunities to develop my career in a creative, progressive and supportive workplace.</p>
+              <p>I’m a software engineer with experience in project management and music production. My interest in development was first sparked by creating music using programming to design and sculpt digital sounds. My desire to learn more led me to fast-track my education at General Assembly’s full-stack immersive software engineering course. I’m now looking for opportunities to develop my career in a creative, progressive and supportive workplace.</p>
             </div>
           </div>
         </div>
