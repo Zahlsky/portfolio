@@ -7,6 +7,7 @@
 @layer base {
   body {
     @apply font-[Roboto];
+    background-color: #171e27;
   }
   li {
     @apply px-4;

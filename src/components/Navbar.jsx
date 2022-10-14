@@ -1,8 +1,6 @@
 import React from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
-// import Logo from '../assets/AZlogo.png'
 import { HiOutlineMail } from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useState } from 'react'
 import { Link } from 'react-scroll'
 
@@ -42,6 +40,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="interests" smooth={true} duration={500}>
+              Interests
+            </Link>
+          </li>
+          <li>
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>
@@ -77,6 +80,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='py-5 text-4xl'>
+            <Link onClick={handleClick} to="interests" smooth={true} duration={500}>
+              Interests
+            </Link>
+          </li>
+          <li className='py-5 text-4xl'>
             <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
               Contact
             </Link>
@@ -103,11 +111,6 @@ const Navbar = () => {
           </a>
         </li>
             </Link>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#e9311a]'>
-          <a className='flex justify-between items-center w-full text-gray-300' href='https://docs.google.com/document/d/1EiEnkrd3njpBI96-JqrTRgxDl0kCq8F3zLaRwy_oYrs/edit?usp=sharing' rel='noreferrer' target='_blank'>
-            CV <BsFillPersonLinesFill size={30}/>
-          </a>
-        </li>
       </ul>
       </div>
     </div>
